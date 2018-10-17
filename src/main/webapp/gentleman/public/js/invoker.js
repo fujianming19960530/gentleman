@@ -9,7 +9,7 @@ function invoker(url,objects,callback) {
 }
 var invoke = {
     invokeRequest:function (url,objects,callback){
-        var root = "http://localhost:8888/heima/";
+        var root = "http://localhost:8888/gentleman/";
         $.ajax({
             type : 'post',
             url : root+url,
