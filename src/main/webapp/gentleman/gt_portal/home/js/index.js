@@ -11,7 +11,6 @@
             var win=$(window); //得到窗口对象
             var sc=$(document);//得到document文档对象。
             win.scroll(function(){
-            console.log(sc.scrollTop());
             var temp = 290-sc.scrollTop();
             if(sc.scrollTop()>=220){
                 nav.css('top','0');
