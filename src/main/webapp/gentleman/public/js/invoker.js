@@ -4,6 +4,7 @@
 * objects：参数对象
 * callback:调用的函数，调用的时候直接callback（data）即可取到数据
 * */
+
 function invoker(url,objects,callback) {
 	invoke.invokeRequest(url,objects,callback);
 }
