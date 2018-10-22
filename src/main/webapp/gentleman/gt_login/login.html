@@ -4,12 +4,38 @@
 	<title>login</title>
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
 </head>
-<body>
-	welcome!<br>
-	<span>账号：</span></span><input type="text" name="" id="number"><br>
-	<span>密码：</span></span><input type="password" name="" id="password"><br>
-	<a href="javascript:void(0)" id="login">登陆</a>
+<body class="body">
+	<div class="home">
+		<div class="middle">
+			<div class="title">
+				<a href="javascript:void(0)" class="login_way_left">
+					<p class="login_font">
+						账户登录
+					</p>
+				</a>
+				<a href="javascript:void(0)" class="login_way_right">
+					<p class="login_font">
+						扫码登录
+					</p>
+				</a>
+			</div>
+			<div class="login_middle">
+				<div class="login_info">
+					<input class="number" type="text" name="" id="number" placeholder="登录账号"><br>
+					<input class="number" type="password" name="" id="password" placeholder="登录密码"><br>
+				</div>
+				<a href="javascript:void(0)" class="login_sub_a" id="login">
+						<span class="login_sub">登陆</span>
+				</a>
+				<div>
+					没有账号？去<a href="javascript:void(0)">注册</a>
+				</div>
+			</div>
+
+		</div>
+	</div>
 
 
 	<!-- 引用公用的js -->
