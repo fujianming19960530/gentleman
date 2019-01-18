@@ -2,7 +2,8 @@
     	init:function () {
     			var me = this;
     			me.setWindowWidth();	
-                me.client_detail();	
+                me.client_detail();
+            console.log(Utils.getCookie("username"));
     		},
 
     	setWindowWidth:function (){

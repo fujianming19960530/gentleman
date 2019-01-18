@@ -31,7 +31,11 @@
     <mvc:resources mapping="/js/**" location="/gentleman/public/js/" />
     <mvc:resources mapping="/layui/**" location="/gentleman/public/layui/" />
 
+    <!-- css映射 -->
+    <mvc:resources mapping="/css/**" location="/gentleman/gt_login/css/" />
 
+    <!-- picture映射 -->
+    <mvc:resources mapping="/picture/**" location="/gentleman/gt_login/picture/" />
 
     <!-- 导入DAO配置 -->
     <import resource="spring-dao.xml"/>
