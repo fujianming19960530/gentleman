@@ -44,6 +44,7 @@ public class loginController{
         }
         result.setResult(loginInfo);
         result.setRes_message(loginInfo.get("message"));
+
         return result;
     }
 }
