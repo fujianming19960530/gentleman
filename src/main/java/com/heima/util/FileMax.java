@@ -5,6 +5,10 @@ import org.springframework.web.multipart.MultipartFile;
 import java.io.File;
 import java.io.IOException;
 
+
+/**
+ * 文件上传工具类
+ */
 public class FileMax {
 	public String oneFileUpload(MultipartFile newFile,String type,String name) throws IllegalStateException, IOException{
 		if(newFile.isEmpty()){

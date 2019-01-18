@@ -5,7 +5,9 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-
+/**
+ * 时间处理工具类，日期转字符串
+ */
 public class GetStringByDate {
 	public static String getString(Date date){
 		if(date == null) return "XXXX-XX-XX";

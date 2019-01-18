@@ -18,10 +18,10 @@ public class userController {
     @Autowired
     private UserService userService;
 
-    @RequestMapping("/oneUser")
+    /*@RequestMapping("/oneUser")
     public @ResponseBody List<Map> oneUser(@RequestBody Map map){
         return userService.selectByCondition(map);
-    }
+    }*/
 
 
 
